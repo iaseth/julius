@@ -22,7 +22,7 @@ int main (int argc, char const *argv[]) {
 			char *text = malloc(sizeof(char) * (size + 1));
 			fread(text, sizeof(char), size, fp);
 			text[size] = '\0';
-			printf("%s\n", text);
+			parse_json(text);
 			free(text);
 			fclose(fp);
 		}
