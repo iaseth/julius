@@ -48,7 +48,7 @@ lib: ${JULIUS_STATIC_LIB} ${JULIUS_DYNAMIC_LIB}
 redo: clean default
 
 run: ${BIN}
-	@${BIN}
+	@${BIN} data/json/colors.json
 
 move:
 	sudo cp ${BIN} /usr/bin
