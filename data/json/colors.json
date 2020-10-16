@@ -1,0 +1,30 @@
+{
+	"colors": [
+		{"name": "facebook", "color": "#3b5998"},
+		{"name": "instagram", "color": "#c13584"},
+		{"name": "linkedin", "color": "#2867b2"},
+		{"name": "twitter", "color": "#1da1f2"},
+		{"name": "youtube", "color": "#ff0000"},
+
+		{"name": "black", "color": "#000"},
+		{"name": "grey", "color": "#777"},
+		{"name": "white", "color": "#fff"}
+	],
+
+	"pairs": [
+		["black", "facebook"],
+		["black", "instagram"],
+		["black", "linkedin"],
+		["black", "twitter"],
+		["black", "youtube"],
+
+		["black", "grey"],
+		["grey", "white"],
+		["white", "black"]
+	],
+
+	"triples": [
+		["black", "grey", "white"],
+		["black", "facebook", "white"]
+	]
+}
